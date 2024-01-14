@@ -1,0 +1,363 @@
+@media (max-width:480px) {
+
+    .header-container {
+        width: 90%;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+    .logo a {
+        font-size: 20px;
+    }
+    .logo i{
+        font-size: 30px;
+    }
+
+    nav {
+        display: none;
+
+    }
+
+    #banner {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .banner-box {
+        width: 300px;
+        padding-top: 25%;
+
+    }
+
+    .banner-box h1 {
+        font-size: 20px;
+        padding-top: 15px;
+        padding-bottom: 0px;
+
+    }
+    .banner-box p{
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+
+    .banner-box button {
+        width: 130px;
+        height: 45px;
+        margin-top: 15px;
+        font-size: 15px;
+    }
+
+    #about {
+        width: 100%;
+        padding-bottom: 0px;
+
+    }
+
+    .about-container {
+        width: 90%;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 35px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .about-box-text h6{
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+    .about-box-text h1 {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+
+    .about-box-img img {
+        width: 100%;
+    }
+
+    .about-box-text p {
+        font-size: 14px;
+    }
+
+    .about-box-text button {
+        width: 120px;
+        height: 45px;
+        margin-top: 25px;
+        font-size: 15px;
+    }
+
+    #team {
+        width: 100%;
+        padding-bottom: 0px;
+
+    }
+
+    .team-container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .team-box {
+        width: 100%;
+    }
+    .team-text a h4{
+        font-size: 25px;
+        
+    }
+    .team-text button{
+        font-size:13px ;
+        width: 120px;
+        height: 45px ;
+    }
+    .team-box img {
+        width: 100%;
+        height: 85%;
+    }
+    .overlay4 {
+        width: 100%;
+        height: 85%;
+    }
+    .systum {
+        width: 100%;
+        padding-top: 25px;
+        padding-bottom: 0px;
+
+    }
+
+    .systum-container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .systum-box {
+        width: 100%;
+       height: auto;
+       margin-bottom: 40px;
+
+    }
+
+    .systum-box h6 {
+        font-size: 12px;
+        padding-bottom: 16px;
+        padding-left: 20px;
+    }
+
+    .systum-box h3 {
+        font-size: 25px;
+        padding-left: 20px;
+
+
+    }
+
+    .systum-box p {
+        font-size: 15px;
+        padding-left: 20px;
+
+    }
+
+    .systum-box2 {
+        width: 100%;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .systum-box3 {
+        width: 100%;
+        height: 160px;
+
+    }
+
+    .systum-box4 {
+        width: 100%;
+        height: 160px;
+
+    }
+
+    .systum-box3 h3 {
+        font-size: 25px;
+        padding-left: 25px;
+
+    }
+
+    .systum-box4 h3 {
+        font-size: 23px;
+        padding-left: 25px;
+        padding-bottom: 20px;
+
+    }
+
+    .systum-box3 p {
+        font-size: 15px;
+        padding-left: 25px;
+    }
+
+    .systum-box4 p {
+        font-size: 15px;
+        padding-left: 25px;
+    }
+    .systum-box button {
+        width: 120px;
+        height: 45px;
+        font-size: 14px;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+
+    #banner2 {
+        width: 100%;
+        height: 55vh;
+    }
+
+    .banner2-box {
+        float: left;
+        width: 250px;
+        margin-top: 30px;
+    }
+
+    .banner2-box h6 {
+        font-size: 13px;
+        font-weight: 300;
+        padding-bottom: 0px;
+    }
+
+    .banner2-box h2 {
+        font-size: 20px;
+        padding-bottom: 2px;
+    }
+
+    .banner2-box p {
+        padding-top: 10px;
+        font-size: 12px;
+    }
+
+    #arpit {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .arpit-container {
+        width: 90%;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .arpit-box {
+        width: 100%;
+    }
+    .arpit-box-img {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        margin-bottom: 0px;
+        border-radius: 5px;
+    
+    }
+    .arpit-box-img img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 0px;
+        filter: brightness(50%);
+        transition: .5s ease;
+        cursor: pointer;
+    
+    }
+    .arpit-box h4 {
+        font-size: 18px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .arpit-box p {
+        font-size: 15px;
+        padding-left: 0px;
+    }
+
+    .btn {
+        width: 100%;
+        display: flex;
+    }
+
+    #banner3 {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .logo2 {
+        width: 70%;
+        font-size: 35px;
+        margin-left: 30px;
+    }
+
+    .logo2 i {
+        margin-top: 30px;
+
+    }
+
+    .logo2 p {
+        font-size: 15px;
+    }
+
+    #footer {
+        width: 100%;
+    }
+
+    .footer-container {
+        width: 90%;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    #end-footer {
+        letter-spacing: 0px;
+        word-spacing: 0px;
+    }
+
+    #yt {
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .yt-container {
+        width: 90%;
+    }
+
+    .wht-boxs {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        height: auto;
+    }
+
+    .wht-box1 {
+        height: 300px;
+    }
+
+    .wht-box2 {
+        margin-left: 165px;
+    }
+
+    .wht h3 {
+        font-size: 28px;
+        padding-top: 8px;
+        padding-bottom: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
