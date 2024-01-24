@@ -7,11 +7,14 @@
     .logo {
         font-size: 30px;
     }
+
     .logo a {
         font-size: 20px;
     }
-    .logo i{
+
+    .logo i {
         font-size: 30px;
+        padding-left: 0px;
     }
 
     nav {
@@ -36,8 +39,9 @@
         padding-bottom: 0px;
 
     }
-    .banner-box p{
-        padding-top: 50px;
+
+    .banner-box p {
+        padding-top: 30px;
         padding-bottom: 0px;
     }
 
@@ -62,10 +66,12 @@
         padding-left: 0px;
         padding-right: 0px;
     }
-    .about-box-text h6{
+
+    .about-box-text h6 {
         font-size: 12px;
         padding-bottom: 20px;
     }
+
     .about-box-text h1 {
         font-size: 25px;
         padding-bottom: 20px;
@@ -103,23 +109,28 @@
     .team-box {
         width: 100%;
     }
-    .team-text a h4{
+
+    .team-text a h4 {
         font-size: 25px;
-        
+
     }
-    .team-text button{
-        font-size:13px ;
+
+    .team-text button {
+        font-size: 13px;
         width: 120px;
-        height: 45px ;
+        height: 45px;
     }
+
     .team-box img {
         width: 100%;
-        height: 85%;
+        height: 100%;
     }
+
     .overlay4 {
         width: 100%;
-        height: 85%;
+        height: 100%;
     }
+
     .systum {
         width: 100%;
         padding-top: 25px;
@@ -136,8 +147,8 @@
 
     .systum-box {
         width: 100%;
-       height: auto;
-       margin-bottom: 40px;
+        height: auto;
+        margin-bottom: 40px;
 
     }
 
@@ -200,6 +211,7 @@
         font-size: 15px;
         padding-left: 25px;
     }
+
     .systum-box button {
         width: 120px;
         height: 45px;
@@ -249,14 +261,16 @@
     .arpit-box {
         width: 100%;
     }
+
     .arpit-box-img {
         width: 100%;
         height: auto;
         overflow: hidden;
         margin-bottom: 0px;
         border-radius: 5px;
-    
+
     }
+
     .arpit-box-img img {
         width: 100%;
         height: auto;
@@ -265,8 +279,9 @@
         filter: brightness(50%);
         transition: .5s ease;
         cursor: pointer;
-    
+
     }
+
     .arpit-box h4 {
         font-size: 18px;
         margin-left: 0px;
@@ -340,7 +355,7 @@
     }
 
     .wht-box2 {
-        margin-left: 165px;
+        margin-left: 100px;
     }
 
     .wht h3 {
@@ -350,12 +365,206 @@
     }
 
 
+    #photo {
+        width: 100%;
+        height: 25vh;
+
+    }
+
+    .photo-box {
+        width: 200px;
+        padding-top: 15%;
+    }
+
+    .photo-box h3 {
+        font-size: 35px;
+    }
+
+    box h5 {
+        font-size: 12px;
+    }
+
+    .heads-container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .heads-img1 {
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    .heads-box {
+        width: 100%;
+    }
+
+    .heads-text h2 {
+        line-height: 45px;
+        font-size: 29px;
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
+
+    .head-box2 {
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .clg {
+        width: 100%;
+        height: auto;
+        padding-top: 1px;
+    }
+
+    .clg-container {
+        width: 90%;
+    }
+
+    .clg-txt h3 {
+        font-size: 35px;
+    }
+
+    .clg-pndit {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .clg-box1 {
+        width: 100%;
+    }
+
+    .clg-box2 {
+        margin-left: 170px;
+
+    }
+
+    .prt-container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .prt-box {
+        width: 100%;
+    }
+
+    .prt-text h3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .prt-icon {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .prt-img {
+        width: 100%;
+        position: static;
+        
+    }
+
+    .prt-img img {
+        position: static;
+        
+    }
+    .img-text{
+        position: static;
+        margin-bottom: 30px;
+
+    }
+    .img-text h2{
+        font-size: 50px;
+
+    }
+    #counter {
+        height: 12em;
+        width: 90%;
+        display: grid;
+        grid-template-columns: auto auto;
+        
+        padding: 0 15px;
+        padding-bottom: 50px;
+    }
+    
+    .loader {
+        text-align: center;
+        margin: auto;
+        display: flex;
+        flex-flow: column;
+    }
+    
+    .ns {
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    
+    .cnt{
+        font-size: 20px;
+    }
+    #art {
+        width: 100%;
+    }
+    .art-containe{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
 
 
+    .art-box1{
+        width: 100%;
+        position: static;
+    }
+    .art-box1 p{
+        position: static;
+        padding-top: 30px;
+    }
+    .art-box1 h2{
+        position: static;
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    .art-box2{
+        width: 50%;
+        position: static;
+    }
+    .art-box2 button{
+        position: static;
+        margin-top: 50px;
+        width: 110px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .art-box3 {
+        width: 50%;
+        position: static;
+        float: left;
 
+    }
+    .art-box3 button {
+        position: static;
+        width: 110px;
+        height: 40px;
+        font-size: 15px;
+    
+    }
+    .team1 h2{
 
+        font-size: 25px;
+    }
 
-
+    .team2-container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
 
 
 
