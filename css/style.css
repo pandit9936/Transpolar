@@ -538,6 +538,9 @@ header.sticky .active{
     background-color: var(--primary-color);
 
 }
+.wht-box1:hover{
+    background-color: aqua;
+}
 
 .wht-box1:hover .wht-box2 i {
     color: #fff;
@@ -1336,6 +1339,9 @@ header.sticky .active{
     padding-top: 20px;
     color: #636466;
 
+}
+.clg-box1:hover{
+    background-color: aqua;
 }
 
 .clg-box1:hover .clg-box2 {
